@@ -14,7 +14,7 @@ class test01 {
 
 	@Test
 	void test1() {
-		String path = "C:\\Users\\DELL\\OneDrive\\Desktop\\selenium\\jenkins_remote\\reports\\jenkinsreport.html";
+		String path = "C:\\Users\\DELL\\OneDrive\\Desktop\\selenium\\jenkins_remote\\target\\jenkinsreport.html";
 		File file = new File(path);
 		ExtentReports report = new ExtentReports(path);
 		ExtentTest test = report.startTest("test_jenkins");
